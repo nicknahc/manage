@@ -9,6 +9,8 @@ h4 {
 
 .equal-columns {
   display: flex;
+}
+.equal-columns.landing {
   flex-direction: column-reverse;
 }
 .equal-columns.inverted {

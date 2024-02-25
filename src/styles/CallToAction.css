@@ -24,7 +24,7 @@ h5 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* width: 80dvw; */
+    width: 80dvw;
     text-align: left;
   }
   h5 {

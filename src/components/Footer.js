@@ -8,7 +8,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="section-padding top-padding footer">
-      <div className="equal-columns footer-height">
+      <div className="equal-columns">
         <div className="footer-logos">
           <img src={logo} width="146" height="24" />
           <ul className="media-links">
@@ -19,15 +19,13 @@ function Footer() {
             <img src={instagramLogo}></img>
           </ul>
         </div>
-        <div className="vertical-space-between">
+        <div className="footer-links-wrapper">
           <ul className="footer-links">
             <li className="footer-link">Home</li>
             <li className="footer-link">Pricing</li>
             <li className="footer-link">Products</li>
             <li className="footer-link">About Us</li>
           </ul>
-        </div>
-        <div className="vertical-space-between">
           <ul className="footer-links">
             <li className="footer-link">Careers</li>
             <li className="footer-link">Community</li>
@@ -35,8 +33,9 @@ function Footer() {
             <li className="footer-link blank">_</li>
           </ul>
         </div>
+
         <div className="footer-logos">
-          <form>
+          <form className="footer-subscribe">
             <input
               className="input"
               type="email"

@@ -54,3 +54,55 @@
 .copyright {
   color: var(--caption-clr);
 }
+.footer-links-wrapper {
+  flex: 0.8;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > .equal-columns {
+  height: 8rem;
+}
+.media-links > * {
+  transform: scale(1.15);
+}
+@media (max-width: 50em) {
+  .footer > .equal-columns {
+    flex-direction: column-reverse;
+    justify-content: center;
+    row-gap: 2rem;
+    height: auto;
+  }
+  .footer > .equal-columns > * {
+    row-gap: 2rem;
+  }
+  .footer > .equal-columns:before {
+    content: "Copyright 2020. All Rights Reserved";
+    color: var(--caption-clr);
+  }
+  .footer-links {
+    row-gap: 1rem;
+  }
+  .copyright {
+    display: none;
+  }
+  .footer {
+    padding-inline: 5rem !important;
+    height: max-content;
+  }
+  .footer-logos {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .media-links {
+    width: 65dvw;
+  }
+  .media-links > * {
+    transform: scale(1.5);
+  }
+  .input {
+    width: 60dvw;
+  }
+  .footer-subscribe {
+    width: max-content;
+  }
+}
