@@ -1,0 +1,29 @@
+.numbered-list > li {
+  margin-bottom: 2rem;
+}
+.numbered-item:before {
+  margin-right: 1rem;
+  content: counter(item, decimal-leading-zero);
+  background: var(--secondary-clr);
+  border-radius: 50vmax;
+  padding: 0.5rem 1.5rem;
+  width: 1rem;
+  justify-content: center;
+  display: inline-flex;
+  color: white;
+  height: 1.5rem;
+  font-size: 1rem;
+  align-items: center;
+}
+.numbered-item-caption {
+  padding-left: 5rem;
+  min-width: 90%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+h3 {
+  font-weight: 700;
+}

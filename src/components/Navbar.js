@@ -1,8 +1,9 @@
 import logo from "../assets/logo.svg";
+import "../styles/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="primary-header section-padding top-padding">
-      <img src={logo} />
+      <img src={logo} alt="manage logo" />
       <ul className="header-list">
         <li>Pricing</li>
         <li>Product</li>

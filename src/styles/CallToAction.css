@@ -1,0 +1,45 @@
+.call-to-action {
+  position: relative;
+  isolation: isolate;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 3rem;
+  row-gap: 2rem;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+
+@media (min-width: 50em) {
+  .call-to-action {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 80dvw; */
+    text-align: left;
+  }
+  h5 {
+    text-align: start;
+  }
+}
+
+.call-to-action:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background-image: url("../assets/bg-tablet-pattern.svg"),
+    url("../assets/bg-tablet-pattern.svg");
+  background-position: bottom -30rem left 0, top -38.5rem right -25rem;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}

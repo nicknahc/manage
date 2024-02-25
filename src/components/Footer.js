@@ -4,6 +4,7 @@ import twitterLogo from "../assets/icon-twitter.svg";
 import pinterestLogo from "../assets/icon-pinterest.svg";
 import instagramLogo from "../assets/icon-instagram.svg";
 import logo from "../assets/logo-white.png";
+import "../styles/Footer.css";
 function Footer() {
   return (
     <footer className="section-padding top-padding footer">
@@ -31,6 +32,7 @@ function Footer() {
             <li className="footer-link">Careers</li>
             <li className="footer-link">Community</li>
             <li className="footer-link">Privacy Policy</li>
+            <li className="footer-link blank">_</li>
           </ul>
         </div>
         <div className="footer-logos">
@@ -41,7 +43,7 @@ function Footer() {
               placeholder="Updates in your inbox..."
               style={{ color: "black" }}
             ></input>
-            <button className="butston no-shadow">Go</button>
+            <button className="button no-shadow">Go</button>
           </form>
           <p className="copyright">Copyright 2020. All Rights Reserved</p>
         </div>

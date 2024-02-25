@@ -1,81 +1,16 @@
-import illustrationIntro from "../assets/illustration-intro.svg";
 import Footer from "../components/Footer";
+import Landing from "../components/Landing";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
+import CallToAction from "../components/CallToAction";
+import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <section className="section-padding">
-        <div className="container">
-          <div className="equal-columns top-margin">
-            <div className="left-column top-padding">
-              <h1 className="primary-heading">
-                Bring everyone together to build better products.
-              </h1>
-              <p className="caption">
-                Manage makes it simple for software teams to plan day-to-day
-                tasks while keeping the larger team goals in view.
-              </p>
-              <button className="button">Get Started</button>
-            </div>
-            <div className="right-column">
-              <img src={illustrationIntro} alt=""></img>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="section-padding">
-        <div className="equal-columns inverted top-margin">
-          <div className="left-column">
-            <h2 className="secondary-heading">{`What's different about Manage?`}</h2>
-            <p className="caption">
-              Manage provides all the functionality your team needs, without the
-              complexity. Our software is tailor-made for modern digital product
-              teams.
-            </p>
-          </div>
-          <div className="right-column">
-            <ol className="numbered-list vertical-space-between">
-              <li>
-                <h3 className="numbered-item">Track company-wide progress</h3>
-                <p className="caption numbered-item-caption">
-                  See how your day-to-day tasks fit into the wider vision. Go
-                  from tracking progress sat the milestone level all the way
-                  done to the smallest of details. Never lose sight of the
-                  bigger picture gain.
-                </p>
-              </li>
-              <li>
-                <h3 className="numbered-item">Advanced built-in reports</h3>
-                <p className="caption numbered-item-caption">
-                  Set internal delivery estimates and track progress towards
-                  company goals. Our customisable dashboard helps you build out
-                  the reports you need to keep key stakeholders informed.
-                </p>
-              </li>
-              <li>
-                <h3 className="numbered-item">
-                  Everything you need in one place
-                </h3>
-                <p className="caption numbered-item-caption">
-                  Stop jumping from one service to another to communicate, store
-                  files, track tasks, and share documents. Manage offers an
-                  all-in-one team productivity solution.
-                </p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </section>
-      <section className="section-padding">
-        <h4>{`What they've said`}</h4>
-        {/* Carousel!! */}
-        <button className="button">Get Started</button>
-      </section>
-      <section>
-        <div className="call-to-action section-padding">
-          <h5>Simplify how your team works today.</h5>
-          <button className="button-inverted">Get Started</button>
-        </div>
-      </section>
+      <Landing />
+      <Features />
+      <Testimonials />
+      <CallToAction />
       <Footer />
     </div>
   );
