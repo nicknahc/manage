@@ -25,7 +25,7 @@ h4 {
   row-gap: 1rem;
 }
 @media (min-width: 50em) {
-  .equal-columns {
+  .equal-columns.landing {
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
