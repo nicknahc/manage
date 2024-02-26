@@ -1,6 +1,7 @@
 .numbered-list > li {
   margin-bottom: 2rem;
 }
+
 .numbered-item:before {
   margin-right: 1rem;
   content: counter(item, decimal-leading-zero);
@@ -15,6 +16,10 @@
   font-size: 1rem;
   align-items: center;
 }
+.numbered-item {
+  display: relative;
+}
+
 .numbered-item-caption {
   padding-left: 5rem;
   min-width: 90%;
@@ -26,4 +31,12 @@ h2 {
 }
 h3 {
   font-weight: 700;
+}
+@media (max-width: 50em) {
+  .numbered-list > li {
+    margin-top: 3rem;
+  }
+  .numbered-item-caption {
+    padding-left: 1rem;
+  }
 }

@@ -50,7 +50,7 @@ h4 {
 .right-column {
   flex-basis: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   text-align: start;
 }
 .header-link {
