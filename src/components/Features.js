@@ -15,7 +15,7 @@ function Features() {
           <ol className="numbered-list vertical-space-between">
             <li>
               <h3 className="numbered-item">Track company-wide progress</h3>
-              <p className="caption numbered-item-caption">
+              <p className="numbered-item-caption">
                 See how your day-to-day tasks fit into the wider vision. Go from
                 tracking progress sat the milestone level all the way done to
                 the smallest of details. Never lose sight of the bigger picture
@@ -24,7 +24,7 @@ function Features() {
             </li>
             <li>
               <h3 className="numbered-item">Advanced built-in reports</h3>
-              <p className="caption numbered-item-caption">
+              <p className="numbered-item-caption">
                 Set internal delivery estimates and track progress towards
                 company goals. Our customisable dashboard helps you build out
                 the reports you need to keep key stakeholders informed.
@@ -34,7 +34,7 @@ function Features() {
               <h3 className="numbered-item">
                 Everything you need in one place
               </h3>
-              <p className="caption numbered-item-caption">
+              <p className="numbered-item-caption">
                 Stop jumping from one service to another to communicate, store
                 files, track tasks, and share documents. Manage offers an
                 all-in-one team productivity solution.

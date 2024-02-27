@@ -248,6 +248,7 @@ textarea:not([rows]) {
 .App {
   position: relative;
   z-index: 1;
+  overflow-x: clip;
 }
 :root {
   --primary-clr: hsl(228, 39%, 23%);
@@ -271,6 +272,7 @@ textarea:not([rows]) {
 a {
   display: flex;
   height: min-content;
+  cursor: pointer;
 }
 ul {
   list-style: none;
@@ -278,13 +280,6 @@ ul {
 ol {
   list-style: none;
   counter-reset: item;
-}
-li {
-  counter-increment: item;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  row-gap: 1rem;
 }
 
 /* Make images easier to work with */

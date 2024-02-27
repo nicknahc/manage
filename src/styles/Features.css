@@ -1,5 +1,8 @@
 .numbered-list > li {
   margin-bottom: 2rem;
+  counter-increment: item;
+  align-items: flex-start;
+  row-gap: 1rem;
 }
 
 .numbered-item:before {
@@ -17,12 +20,14 @@
   align-items: center;
 }
 .numbered-item {
-  display: relative;
+  position: relative;
+  width: 100%;
 }
 
 .numbered-item-caption {
-  padding-left: 5rem;
+  padding-left: 4rem;
   min-width: 90%;
+  color: var(--caption-clr);
 }
 h2 {
   font-weight: 700;
@@ -37,6 +42,20 @@ h3 {
     margin-top: 3rem;
   }
   .numbered-item-caption {
+    padding-top: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+  .numbered-item:after {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: var(--secondary-clr);
+    z-index: 2;
+    opacity: 0.2;
   }
 }

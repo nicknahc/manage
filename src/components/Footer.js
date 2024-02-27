@@ -12,24 +12,49 @@ function Footer() {
         <div className="footer-logos">
           <img src={logo} width="146" height="24" />
           <ul className="media-links">
-            <img src={facebookLogo}></img>
-            <img src={youtubeLogo}></img>
-            <img src={twitterLogo}></img>
-            <img src={pinterestLogo}></img>
-            <img src={instagramLogo}></img>
+            <a>
+              <img src={facebookLogo}></img>
+            </a>
+
+            <a>
+              <img src={youtubeLogo}></img>
+            </a>
+            <a>
+              <img src={twitterLogo}></img>
+            </a>
+            <a>
+              <img src={pinterestLogo}></img>
+            </a>
+            <a>
+              <img src={instagramLogo}></img>
+            </a>
           </ul>
         </div>
         <div className="footer-links-wrapper">
           <ul className="footer-links">
-            <li className="footer-link">Home</li>
-            <li className="footer-link">Pricing</li>
-            <li className="footer-link">Products</li>
-            <li className="footer-link">About Us</li>
+            <li className="footer-link">
+              <a>Home</a>
+            </li>
+            <li className="footer-link">
+              <a>Pricing</a>
+            </li>
+            <li className="footer-link">
+              <a>Products</a>
+            </li>
+            <li className="footer-link">
+              <a>About Us</a>
+            </li>
           </ul>
           <ul className="footer-links">
-            <li className="footer-link">Careers</li>
-            <li className="footer-link">Community</li>
-            <li className="footer-link">Privacy Policy</li>
+            <li className="footer-link">
+              <a>Careers</a>
+            </li>
+            <li className="footer-link">
+              <a>Community</a>
+            </li>
+            <li className="footer-link">
+              <a>Privacy Policy</a>
+            </li>
             <li className="footer-link blank">_</li>
           </ul>
         </div>

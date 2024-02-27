@@ -42,4 +42,5 @@ h5 {
   background-position: bottom -30rem left 0, top -38.5rem right -25rem;
   background-repeat: no-repeat;
   opacity: 0.1;
+  pointer-events: none;
 }
