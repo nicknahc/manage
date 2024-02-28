@@ -39,7 +39,7 @@ h3 {
 }
 @media (max-width: 50em) {
   .numbered-list > li {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .numbered-item-caption {
     padding-top: 1rem;

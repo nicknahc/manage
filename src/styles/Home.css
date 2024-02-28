@@ -12,6 +12,7 @@ h4 {
 }
 .equal-columns.landing {
   flex-direction: column-reverse;
+  margin-top: 6rem;
 }
 .equal-columns.inverted {
   flex-direction: column;
@@ -23,6 +24,7 @@ h4 {
   align-content: center;
   align-items: center;
   row-gap: 1rem;
+  padding-top: 4rem;
 }
 @media (min-width: 50em) {
   .equal-columns.landing {
@@ -40,21 +42,19 @@ h4 {
     flex-direction: row;
   }
 }
-
-.top-padding {
-  padding-top: 3.5rem;
-}
-.top-margin {
-  margin-top: 6rem;
+@media (max-width: 50em) {
+  .equal-columns.landing {
+    margin-top: 2rem;
+  }
+  .left-column {
+    padding-top: 2rem;
+  }
 }
 .right-column {
   flex-basis: 50%;
   display: flex;
   justify-content: center;
   text-align: start;
-}
-.header-link {
-  color: var(--primary-clr);
 }
 .primary-heading {
   font-weight: 700;

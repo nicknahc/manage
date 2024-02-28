@@ -7,7 +7,7 @@ import logo from "../assets/logo-white.png";
 import "../styles/Footer.css";
 function Footer() {
   return (
-    <footer className="section-padding top-padding footer">
+    <footer className="section-padding footer">
       <div className="equal-columns">
         <div className="footer-logos">
           <img src={logo} width="146" height="24" />

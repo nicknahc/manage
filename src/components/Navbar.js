@@ -16,9 +16,9 @@ const Navbar = () => {
     }
   }, [dropDown]);
   return (
-    <nav className=" section-padding top-padding primary-header">
+    <nav className="section-padding primary-header">
       <a>
-        <img src={logo} alt="manage logo" />
+        <img src={logo} alt="manage logo" className="header-logo" />
       </a>
       <ul className={`header-list ${dropDown ? "overlay" : ""}`}>
         <li>

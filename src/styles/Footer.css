@@ -21,6 +21,7 @@
   padding-bottom: 3.5rem;
   min-height: 20dvh;
   position: relative;
+  padding-top: 2rem;
 }
 .footer-height {
   height: 8rem;
@@ -94,6 +95,7 @@
   .footer {
     padding-inline: 5rem !important;
     height: max-content;
+    padding-bottom: 1rem;
   }
   .footer-logos {
     flex-direction: column-reverse;

@@ -4,7 +4,7 @@ function Landing() {
   return (
     <section className="section-padding">
       <div className="container">
-        <div className="equal-columns landing top-margin">
+        <div className="equal-columns landing">
           <div className="left-column top-padding">
             <h1 className="primary-heading">
               Bring everyone together to build better products.

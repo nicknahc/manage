@@ -31,6 +31,11 @@ h5 {
     text-align: start;
   }
 }
+@media (max-width: 50em) {
+  h5 {
+    width: 80dvw;
+  }
+}
 
 .call-to-action:before {
   content: "";
