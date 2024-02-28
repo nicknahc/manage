@@ -63,11 +63,11 @@ h4 {
 
 .caption {
   color: var(--caption-clr);
-  width: 80%;
+  width: 90%;
 }
 @media (min-width: 50em) {
   .caption {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -78,6 +78,9 @@ h4 {
   border-radius: 100vmax;
   box-shadow: 0 1.125em 1em -1em var(--secondary-clr);
   border: none;
+}
+.button:hover {
+  opacity: 0.8;
 }
 
 .App::before {

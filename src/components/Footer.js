@@ -15,7 +15,6 @@ function Footer() {
             <a>
               <img src={facebookLogo}></img>
             </a>
-
             <a>
               <img src={youtubeLogo}></img>
             </a>

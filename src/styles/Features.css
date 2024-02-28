@@ -55,7 +55,7 @@ h3 {
     width: 100%;
     content: "";
     background-color: var(--secondary-clr);
-    z-index: 2;
+    z-index: 1;
     opacity: 0.2;
   }
 }

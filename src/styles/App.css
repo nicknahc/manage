@@ -247,7 +247,6 @@ textarea:not([rows]) {
 }
 .App {
   position: relative;
-  z-index: 1;
   overflow-x: clip;
 }
 :root {
